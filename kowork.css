@@ -51,6 +51,10 @@
    border-radius: 250px;
     width:auto;
 }
+.image3 {
+  width: 150%;   
+  height: auto; 
+}
 
 .section1 .row{
 
@@ -62,12 +66,32 @@
    background-repeat: no-repeat;
    background-position: right;
 }
+.galerie{
+   background-color: #9AE8D0  ;
+   background-image: url('bcf.png') ;
+   background-repeat: repeat;
+   background-position: right;
+}
+
+.section3 {
+   background-color: #9AE8D0  ;
+   background-image: url('bcf.png') ;
+   background-repeat: no-repeat;
+   background-position: right;
+}
 
 .titre-SECTION1 {
   font-family: 'Kdam Thmor Pro', sans-serif;
   font-weight: 250;
   font-size: 55px;
   color: #000; 
+}
+.titre-SECTION3{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-weight: 250;
+  font-size: 55px;
+  color: #000000; 
+  padding-TOP: 80px;
 }
 .titre-SECTION2{
   font-family: 'Kdam Thmor Pro', sans-serif;
@@ -107,9 +131,10 @@
     width:auto;
 }
 
-.row {
+.row  {
     flex-direction: column-reverse;
   }
+  
   .col {
     margin-bottom: 20px; 
   }
@@ -117,6 +142,11 @@
 .nos-services {
 
   padding-bottom: 1300px;
+
+}
+.nos-offres {
+
+  padding-bottom: 1100px;
 
 }
 
@@ -127,6 +157,21 @@
   color: #ffffff;
   text-align: center;
 }
+
+.titre-SECTION3{
+ font-family: 'Kdam Thmor Pro', sans-serif;
+  font-weight: 250; 
+  font-size: 39px;
+  color: #000000;
+  
+}
+.image3 {
+  width: 90%;   
+  height: auto;
+
+}
+
+
 
 }
 
@@ -252,5 +297,183 @@
    background-position: top left ;
    
    
+}
+.nos-offres {
+  
+  height: 570px;
+   background-color: #7E7563  ;
+   background-image: url('bcf.png') ;
+   background-repeat: no-repeat;
+   background-position: top left ;
+   
+   
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #F8F8F8;
+  padding: 40px 20px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-image: url('bcf.png') ;
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.footer-desc {
+  font-size: 15px;
+  color: #333;
+  max-width: 350px;
+}
+
+.footer-social {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: right;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 28px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #4e4e4e; /* bleu au survol */
+}
+
+.footer-info p {
+  font-size: 15px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.footer-info i {
+  margin-right: 8px;
+  color: #000000;
+}
+
+
+@media (max-width: 768px) {
+  .footer .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin: 0 auto 10px;
+  }
+
+  .footer-desc {
+    margin: 0 auto 20px;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+#contact-section {
+  background-color: #9AE8D0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#contact-title {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-weight: 250;
+  font-size: 55px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#contact-desc {
+  font-size: 18px;
+  color: #000;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+
+
+#contact-form {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.form-input, 
+.form-textarea {
+  flex: 1;
+  border: 2px solid #542013;
+  border-radius: 20px;
+  padding: 12px 15px;
+  font-size: 16px;
+  color: #000;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #868686;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-textarea {
+  width: 100%;
+  min-height: 120px;
+  resize: none;
+}
+
+#form-btn {
+  background-color: transparent;
+  color: #868686;
+  border: 2px solid #542013;
+  padding: 12px 30px;
+  border-radius: 20px;
+  
+  font-size: 18px;
+  
+}
+
+#form-btn:hover {
+  background-color: #3a150d;
+}
+
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
 }
 
